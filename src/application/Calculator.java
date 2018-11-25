@@ -65,16 +65,16 @@ public class Calculator {
 	 * Hier die Methoden mit den Formlen hinzufügen
 	 */
 	
-	public double pAusUundI(double u, double i) {
-		return u * i;
+	public double uAusRundI(double r, double i) {
+		return r * i;
 	}
 	
-	public double pAusUundR(double u, double r) {
-		return (u * u) / r;
+	public double uAusPundI(double p, double i) {
+		return p / i;
 	}
 	
-	public double pAusRundI(double r, double i) {
-		return (i * i) * r;
+	public double uAusPundR(double p, double r) {
+		return Math.sqrt(p * r);
 	}
 
 	
