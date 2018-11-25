@@ -56,6 +56,15 @@ public class Calculator {
 		 * Hier auf Grund der vorhanden Werte entscheiden welche Methode unten
 		 * aufgerufen werden muss.
 		 */
+		if (leistung == 0.0 && spannung == 0.0 && strom != 0.0 && widerstand != 0.0) {
+
+			leistung = Math.round(pAusRundI(widerstand, strom) * 100.0) / 100.0;
+			
+			spannung = Math.round(uAusRundI(widerstand, strom) * 100.0) / 100.0;
+			
+
+		}
+		
 
 		
 
@@ -65,17 +74,6 @@ public class Calculator {
 	 * Hier die Methoden mit den Formlen hinzufügen
 	 */
 	
-	public double uAusRundI(double r, double i) {
-		return r * i;
-	}
-	
-	public double uAusPundI(double p, double i) {
-		return p / i;
-	}
-	
-	public double uAusPundR(double p, double r) {
-		return Math.sqrt(p * r);
-	}
 
 	
 }
