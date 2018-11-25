@@ -46,9 +46,9 @@ public class Calculator {
 	public void calculate() {
 	}
 
-	//Strom aus 
-	public double iAusPundR(double p,double r){
-		return Math.sqrt(p/r);
+	//Feature 4
+	public double rAusUundP(double u,double p){
+		return (u*u)/p;
 	}
 	
 
