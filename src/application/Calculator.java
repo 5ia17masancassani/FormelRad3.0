@@ -68,6 +68,10 @@ public class Calculator {
 	public double uAusRundI(double r, double i) {
 		return r * i;
 	}
+	
+	public double uAusPundI(double p, double i) {
+		return p / i;
+	}
 
 	
 }
