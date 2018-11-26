@@ -53,6 +53,11 @@ public class Calculator {
 
 	public void calculate() {
 		}
+	
+	public double rAusUundP(double u,double p){
+		return (u*u)/p;
+	}
+
 
 	}
 
