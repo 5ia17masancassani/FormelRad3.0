@@ -52,7 +52,12 @@ public class Calculator {
 	
 
 	public void calculate() {
+		
 		}
+	
+	public double iAusPundR(double p,double r){
+		return Math.sqrt(p/r);
+	}
 
 	}
 
