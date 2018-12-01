@@ -52,30 +52,33 @@ public class Calculator {
 	
 
 	public void calculate() {
-		/*
-		 * Hier auf Grund der vorhanden Werte entscheiden welche Methode unten
-		 * aufgerufen werden muss.
-		 */
-
 		
+		}
+	
+	public double iAusPundR(double p,double r){
+		return Math.sqrt(p/r);
+	}
+	
+	public double iAusPundU(double p,double u){
+		return p/u;
+	}
+	
+	public double iAusUundR(double u,double r){
+		return u/r;
+	}
+
+
+	double rAusUundP(double u,double p){
+		return (u*u)/p;
+	}
+	
+	public double rAusPundI(double p, double i){
+		return p /(i*i);
+	}
+	
+	public double rAusUundI(double u,double i){
+		return u / i;
+	}
 
 	}
 
-	/*
-	 * Hier die Methoden mit den Formlen hinzufügen
-	 */
-	
-	public double pAusUundI(double u, double i) {
-		return u * i;
-	}
-	
-	public double pAusUundR(double u, double r) {
-		return (u * u) / r;
-	}
-	
-	public double pAusRundI(double r, double i) {
-		return (i * i) * r;
-	}
-
-	
-}
